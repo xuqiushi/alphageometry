@@ -27,7 +27,8 @@ import numpy as np
 from numpy.random import uniform as unif  # pylint: disable=g-importing-member
 
 
-matplotlib.use('TkAgg')
+# matplotlib.use('TkAgg')
+matplotlib.use('Agg')
 
 
 ATOM = 1e-12
